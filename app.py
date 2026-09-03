@@ -966,11 +966,11 @@ def show_about():
 
     st.subheader("ℹ️ About")
     st.markdown("""
-    ### MPLAD AI Fraud Detection System
+    ### GovLENS AI Fraud Detection System
     Built for Smart India Hackathon 2026.
 
-    This system uses AI-powered checks to detect anomalies in MPLAD
-    (Member of Parliament Local Area Development) fund utilization:
+    This system uses AI-powered checks to detect anomalies in GovLENS
+    (Government Lens) fund utilization:
 
     - **Cost Anomaly Detection** — flags projects sanctioned at unusually high cost vs similar projects
     - **Timeline Delay Detection** — flags stagnant or delayed projects
@@ -990,9 +990,8 @@ def main():
     # Title
     st.markdown("""
     <div class="app-header">
-        <h1>🛡️ MPLAD AI Fraud Detection System</h1>
-        <p>Smart India Hackathon 2026 · AI-Powered Fund Monitoring & Anomaly Detection</p>
-    </div>
+        <h1>🛡️ GovLENS AI Fraud Detection System</h1>
+            </div>
     """, unsafe_allow_html=True)
 
     # Sidebar - Role Selection
